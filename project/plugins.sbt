@@ -1,0 +1,1 @@
+addSbtPlugin("com.example" % "sbt-multi-platforms" % "0.1.0-SNAPSHOT")
