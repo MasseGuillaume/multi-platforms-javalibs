@@ -9,6 +9,8 @@ val defaultSettings = Seq(
   scalaVersion := "2.11.8"
 )
 
+resolvers += Resolver.sonatypeRepo("snapshots")
+
 lazy val javalibs = crossProject2
   .settings(defaultSettings)
   .nativeSettings(defaultNativeSettings)
